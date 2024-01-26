@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 80px;
+    background-color: rgb(231, 151, 121);
+    border-radius: 5px;
+    
+}
+
+.t1{
+    color: rgb(231, 151, 121);
+    float: left;
+    margin: 6px;
+    padding: 6px;
+    font-size: 35px;
+    background-color: dimgray;
+    border-radius: 100%;
+}
+
+ul{
+    float: right;
+    list-style: none;
+}
+
+li{
+    color: beige;
+    float: left;
+    padding: 15px;
+    font-size: 23px;
+    color: beige;
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+} 
+
+a{
+    color: grey;
+    font-size: 23px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(173, 105, 105);
+}
+
+.s1{
+    padding: 5px 10%;
+    height: 100vh;
+    background-image: url(img/idees-deco-salon-saison-2.webp);
+    background-position: center;
+    background-size: cover;
+    
+} 
+
+.d1 h5{
+    padding: 30px;
+    color: rgb(216, 92, 48);
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    animation: slidetop 1s ease forwards;
+    animation-delay: 0.7s;
+
+}
+
+.d1 h1{
+    color: rgb(216, 92, 48);
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+    animation:slideright 2s ease forwards;
+    animation-delay: 0.6s;
+}
+
+.d1 p{
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 20px;
+    animation: slideleft 3s ease forwards;
+    animation-delay: .5s;
+}
+@keyframes slidetop{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes slideright{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes slideleft{
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+footer{
+    background-color:  rgb(231, 151, 121);
+}
+
+.infos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(160px,auto));
+    gap: 3rem;
+
+}
+
+.img{
+    border-radius: 15px;
+    animation: image 3s ease forwards;
+    box-shadow: 4px 4px 6px rgba(0,0, 0, 0.5);
+}
+     
+ 
+@keyframes image{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+        
+    }
+    
+    
+}
+.row{
+    position: relative;
+    top: 7px;
+}
+.row p{
+    animation: paragraphs 5s ease forwards;
+}
+@keyframes paragraphs{
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+.button1{
+    border-radius: 15px;
+    background-color: burlywood;
+    animation: botton 4.5s ease forwards
+}
+@keyframes botton{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+.formulaire{
+    width: 500px;
+    height: 550px;
+    margin-left: 30%;
+    margin-top: 40px;
+    padding: 50px;
+    background-color: transparent;
+    border: 2px solid rgb(146, 143, 143);
+    border-radius: 20px;
+    backdrop-filter: blur(23px);
+
+}    
+.body{
+    background-image: url(img/sall.webp);
+    margin: 0;
+    padding: 0;
+    
+}
+.formulaire h2{
+    text-align: center;
+}
+label{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    background-color: cadetblue;
+    color: black;
+}
+.bg-black{
+   border-radius: 10px;
+    width: 90%;
+}
+.Company{
+    font-size: large;
+}
+h2{
+    font-size: xx-large;
+}
+.button2{
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+.b{
+    background-image: url(img/imi.jpg);
+    color: black;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
